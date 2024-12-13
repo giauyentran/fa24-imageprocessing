@@ -1,9 +1,9 @@
 
-% dbscan_mine("images/alberta/mining_2020.png", "dbscan_plots/alberta.png", 0.055, 20);
-% dbscan_mine("images/chuquicamata/2020-12-31.png", "dbscan_plots/chuquicamata.png", 0.1, 100);
-dbscan_mine("images/garzweiler/2020-12-31.png", "dbscan_plots/garzweuler.png", 0.04, 110);
-% dbscan_mine("images/grasberg/2020-12-31.png", "dbscan_plots/grasberg", 0.06, 40);
-% dbscan_mine("images/mirny/2020-12-31.png", "dbscan_plots/mirny_", 0.06, 240); % 0.04 80 0.05 160
+dbscan_mine("images/alberta/mining_2020.png", "dbscan_plots/alberta.png", 0.055, 40);
+dbscan_mine("images/chuquicamata/2020-12-31.png", "dbscan_plots/chuquicamata.png", 0.05, 30);
+dbscan_mine("images/garzweiler/2020-12-31.png", "dbscan_plots/garzweuler.png", 0.04, 230);
+dbscan_mine("images/grasberg/2020-12-31.png", "dbscan_plots/grasberg", 0.05, 160);
+dbscan_mine("images/mirny/2020-12-31.png", "dbscan_plots/mirny_", 0.03, 70); % 0.04 80 0.05 160
 
 
 function dbscan_mine(filename, savefile, eps, minpts)
